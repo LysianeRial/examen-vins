@@ -15,22 +15,93 @@ video {
   display: block;
 }
 
-.row + .row {
-  margin-top: 16px;
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
+
+// .background-bootstrap {
+//   background-color: aquamarine;
+// }
 
 body {
   font-family: Halyard Text;
 }
 
-.background-bootstrap {
-  background-color: aquamarine;
+.feuilles-header {
+  width: 1513px;
+}
+
+.logo-header {
+  height: 180px;
+}
+
+.first-line-header {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 3px solid #c79c3e;
+  padding-bottom: 30px;
+}
+
+.profil-home-cadi {
+  height: 31.938px;
+}
+
+.button-header {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  padding-left: 40px;
+  align-items: center;
+}
+
+.second-line-header {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 23px;
+}
+
+.langues {
+  background-color: #c79c3e;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.header {
+  padding-top: 65px;
+}
+
+.catchphrase {
+  color: white;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  background: url(../img/vin\ renversé.png);
 }
