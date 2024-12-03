@@ -36,7 +36,7 @@ body {
 }
 
 .feuilles-header {
-  width: 1513px;
+  width: 1497px;
 }
 
 .logo-header {
@@ -76,6 +76,7 @@ body {
   font-weight: 400;
   line-height: normal;
   padding-top: 23px;
+  justify-content: right;
 }
 
 .langues {
@@ -95,6 +96,8 @@ body {
   padding-top: 65px;
 }
 
+// phrase d'accroche
+
 .catchphrase {
   color: white;
   text-align: center;
@@ -103,5 +106,462 @@ body {
   font-style: italic;
   font-weight: 300;
   line-height: normal;
+  display: flex;
+  align-items: center;
+  height: 720px;
+  text-align: center;
+}
+
+.image-fond-catchphrase {
   background: url(../img/vin\ renversé.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+}
+
+// vins homepage
+
+.bottles-homepage {
+  height: 447px;
+}
+
+.exodus-demo-vine-homepage {
+  text-align: center;
+  font-family: "Exodus Demo";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+
+.homepage-wine-buttons {
+  background-color: #c79c3e;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 169px;
+  color: #fff;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.wine-homepage {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.wine-homepage.red {
+  background-color: #6c1d37;
+}
+
+.wine-homepage.white {
+  background: #1d3450;
+}
+.charmeuse-homepage {
+  display: flex;
+  width: 363px;
+  height: 217px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  flex-shrink: 0;
+}
+
+.charmeur-homepage {
+  display: flex;
+  width: 370px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.white-wine-homepage {
+  background: #1d3450;
+  flex-shrink: 0;
+}
+
+.text-rouge-homepage {
+  color: #fff;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 365px;
+}
+
+.text-blanc-homepage {
+  color: #fff;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 370px;
+}
+
+// image champs
+
+.champs {
+  width: 1500px;
+}
+
+// philosophie et vigneron
+
+.images-paragraphe {
+  width: 466px;
+  height: 468px;
+  flex-shrink: 0;
+  margin-bottom: 170px;
+}
+
+.exodus-demo-paragraphe-homepage {
+  color: #000;
+  font-family: "Exodus Demo";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-top: 3px solid #c79c3e;
+  width: 313px;
+  padding-top: 30px;
+  padding-bottom: 44px;
+}
+
+.paragraphes-philosophie {
+  color: #000;
+  text-align: right;
+  font-family: "Halyard Text";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 36px;
+  padding-bottom: 44px;
+}
+
+.paragraphes-vigneron {
+  color: #000;
+  font-family: "Halyard Text";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 36px;
+  padding-bottom: 44px;
+  color: #000;
+}
+
+.homepage-paragraphe-buttons {
+  background: #c79c3e;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 169px;
+  color: #fff;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.paragraphes {
+  padding-top: 170px;
+}
+
+.title-philosophie {
+  margin-left: 210px;
+  width: 313px;
+}
+
+.button-philosophie {
+  margin-left: 350px;
+}
+
+// visite
+
+.text-visite {
+  color: #fff;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  width: 1162px;
+  display: flex;
+}
+
+.button-visite {
+  background: #c79c3e;
+  color: #fff;
+  font-family: "Halyard Text";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.visite {
+  background: url(../img/visite.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.groupement-visite {
+  display: inline-flex;
+  padding-top: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-left: 50px;
+}
+
+// footer
+
+// first line
+
+.logo-footer {
+  width: 300px;
+}
+
+.email {
+  border: 1px solid #cecece;
+  background: #ededed;
+  color: #cecece;
+  font-family: "Halyard Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  height: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.button-inscription {
+  background-color: #c79c3e;
+  color: #fff;
+  font-family: "Halyard Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  width: 140px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vente-footer {
+  color: #000;
+  font-family: "Halyard Text";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-vente-footer {
+  color: #000;
+  font-family: "Halyard Text";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+.num {
+  background-color: #c79c3e;
+  color: #fff;
+  font-family: "Halyard Text";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 40px;
+}
+
+.horaires {
+  padding-bottom: 20px;
+}
+
+.logo-inscription-vente {
+  padding-top: 130px;
+  border-bottom: 3px solid #c79c3e;
+  width: 1196px;
+  margin: auto;
+}
+
+// second line
+
+.localiser {
+  text-align: center;
+}
+
+.rue {
+  color: #000;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+.button-localisation {
+  color: #000;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.instagram-facebook {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+}
+
+.appli {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  flex-shrink: 0;
+}
+
+.suivez-nous {
+  color: #000;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+.resaux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gault {
+  height: 72px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.bio-suisse {
+  width: 106px;
+  height: 87px;
+  flex-shrink: 0;
+}
+
+.sponsors {
+  display: flex;
+  width: 246px;
+  height: 189px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.rue-resaux-sponsors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+// conditions
+
+.souligne {
+  color: #000;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.droits {
+  color: #000;
+  text-align: center;
+  font-family: "Halyard Text";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.conditions {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.two {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
 }
