@@ -37,6 +37,26 @@ body {
 
 // header
 
+.first-line-header .survole-underline:hover {
+  border-bottom: 2px solid black;
+}
+
+.first-line-header .survole-underline {
+  transition-property: border-bottom;
+  transition-duration: 0.5s;
+  border-bottom: 2px solid transparent;
+}
+
+.second-line-header .survole-underline:hover {
+  border-bottom: 2px solid black;
+}
+
+.second-line-header .survole-underline {
+  transition-property: border-bottom;
+  transition-duration: 0.5s;
+  border-bottom: 2px solid transparent;
+}
+
 .feuilles-header {
   width: 1497px;
 }
@@ -74,7 +94,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   gap: 30px;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -125,6 +145,15 @@ body {
 
 // vins homepage
 
+.survole-background:hover {
+  background-color: #7c5809;
+}
+
+.survole-background {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
 .bottles-homepage {
   height: 447px;
   padding-left: 30px;
@@ -173,7 +202,7 @@ a {
 }
 
 .wine-homepage.red {
-  background-color: ;
+  background-color: #6c1d37;
   background-image: url(../img/feuilles\ vins.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -294,6 +323,12 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.homepage-paragraphe-buttons:hover {
+  background-color: #7c5809;
 }
 
 .paragraphes {
@@ -356,6 +391,11 @@ a {
   align-items: center;
   gap: 70px;
   margin-left: 50px;
+  transition-property: opacity;
+}
+
+.groupement-visite:hover {
+  opacity: 100%;
 }
 
 // footer
@@ -382,6 +422,11 @@ a {
   justify-content: left;
   align-items: center;
   padding-left: 10px;
+}
+
+.email:focus {
+  background-color: #cacaca;
+  color: #939393;
 }
 
 .button-inscription {
@@ -602,4 +647,21 @@ a {
   display: flex;
   align-items: flex-start;
   gap: 30px;
+}
+
+.survole-color:active {
+  color: #c79c3e;
+}
+
+.survole-color {
+  transition-property: color;
+}
+
+.active-background:active {
+  background-color: #7c5809;
+}
+
+.active-background {
+  transition-property: background-color;
+  border: none;
 }

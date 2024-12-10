@@ -39,6 +39,26 @@ body {
 
 // header
 
+.first-line-header .survole-underline:hover {
+  border-bottom: 2px solid white;
+}
+
+.first-line-header .survole-underline {
+  transition-property: border-bottom;
+  transition-duration: 0.5s;
+  border-bottom: 2px solid transparent;
+}
+
+.second-line-header .survole-underline:hover {
+  border-bottom: 2px solid white;
+}
+
+.second-line-header .survole-underline {
+  transition-property: border-bottom;
+  transition-duration: 0.5s;
+  border-bottom: 2px solid transparent;
+}
+
 .feuilles-header {
   width: 1497px;
 }
@@ -75,7 +95,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   gap: 30px;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -245,10 +265,19 @@ body {
 
 // vin blanc
 
+.survole-background:hover {
+  background-color: #7c5809;
+}
+
+.survole-background {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
 .bottles-homepage {
   height: 690px;
   flex-shrink: 0;
-  display: flex;
+  transform: translateY(-68px);
 }
 
 .exodus-demo-vine-homepage {
@@ -320,6 +349,14 @@ a {
 // footer
 // first line
 
+.active-background:active {
+  background-color: #7c5809;
+}
+
+.active-background {
+  transition-property: background-color;
+}
+
 .logo-footer {
   width: 300px;
   margin-top: 100px;
@@ -340,6 +377,11 @@ a {
   justify-content: left;
   align-items: center;
   padding-left: 10px;
+}
+
+.email:focus {
+  background-color: #cacaca;
+  color: #939393;
 }
 
 .button-inscription {
@@ -560,4 +602,21 @@ a {
   display: flex;
   align-items: flex-start;
   gap: 30px;
+}
+
+.survole-color:active {
+  color: #c79c3e;
+}
+
+.survole-color {
+  transition-property: color;
+}
+
+.active-background:active {
+  background-color: #7c5809;
+}
+
+.active-background {
+  transition-property: background-color;
+  border: none;
 }
