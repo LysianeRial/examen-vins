@@ -381,6 +381,24 @@ a {
   background-position: top center;
   background-size: cover;
   padding-bottom: 100px;
+  position: relative;
+}
+
+.visite-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  pointer-events: none;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+
+.visite:hover .visite-overlay {
+  opacity: 0.5;
 }
 
 .groupement-visite {
@@ -392,6 +410,9 @@ a {
   gap: 70px;
   margin-left: 50px;
   transition-property: opacity;
+  opacity: 0%;
+  transition-duration: 0.5s;
+  position: relative;
 }
 
 .groupement-visite:hover {
