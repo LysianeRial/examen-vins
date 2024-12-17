@@ -32,7 +32,7 @@ video {
 // }
 
 body {
-  font-family: Halyard Text;
+  font-family: "halyard-text", sans-serif;
   background-color: black;
   color: white;
 }
@@ -126,7 +126,7 @@ body {
 .catchphrase {
   color: white;
   text-align: center;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 48px;
   font-style: italic;
   font-weight: 300;
@@ -162,7 +162,7 @@ body {
 
 .nom-du-vin-selectionne {
   color: #fff;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 32px;
   font-style: normal;
 }
@@ -177,18 +177,16 @@ body {
 // mockup
 
 .mockup {
-  width: auto;
-  height: 415px;
+  width: 100%;
   flex-shrink: 0;
 }
 
 .elixir-charmeuse-pinot {
   display: flex;
-  width: 1000px;
   justify-content: left;
   align-items: center;
   flex-shrink: 0;
-  margin-left: 120px;
+  flex-direction: column;
 }
 
 .elixir-charmeuse-pinot h2 {
@@ -207,24 +205,22 @@ body {
 .elixir-charmeuse-pinot h3 {
   color: #fff;
   text-align: center;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 40px;
   font-style: italic;
   font-weight: 300;
   line-height: normal;
-  padding-left: 70px;
 }
 
 .elixir-charmeuse-pinot h4 {
   color: #c79c3e;
   text-align: center;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   padding-top: 30px;
-  padding-left: 80px;
 }
 
 .ensemble-mockup {
@@ -239,7 +235,7 @@ body {
 
 .informations h2 {
   color: #c79c3e;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
@@ -249,7 +245,7 @@ body {
 
 .informations p {
   color: #fff;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
@@ -299,7 +295,7 @@ body {
   width: 280px;
   color: #fff;
   text-align: center;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 38.783px;
   font-style: normal;
   font-weight: 400;
@@ -335,7 +331,7 @@ a {
 
 .text-blanc-homepage {
   color: #fff;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 32.271px;
   font-style: normal;
   font-weight: 400;
@@ -367,7 +363,7 @@ a {
   border: 1px solid #cecece;
   background: #ededed;
   color: #cecece;
-  font-family: "Halyard Display";
+  font-family: "halyard-text", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -388,7 +384,7 @@ a {
 .button-inscription {
   background-color: #c79c3e;
   color: #fff;
-  font-family: "Halyard Display";
+  font-family: "halyard-text", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -413,7 +409,7 @@ a {
 
 .vente-footer {
   color: white;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -423,7 +419,7 @@ a {
 
 .title-vente-footer {
   color: white;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -474,7 +470,7 @@ a {
 .rue {
   color: white;
   text-align: center;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -485,7 +481,7 @@ a {
 .button-localisation {
   color: white;
   text-align: center;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -514,7 +510,7 @@ a {
 .suivez-nous {
   color: white;
   text-align: center;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -567,7 +563,7 @@ a {
 .souligne {
   color: white;
   text-align: center;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -583,7 +579,7 @@ a {
 .droits {
   color: white;
   text-align: center;
-  font-family: "Halyard Text";
+  font-family: "halyard-text", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
